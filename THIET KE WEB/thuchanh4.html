@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Thuc hanh 4</title>
+	<script>
+
+		function checknull(txt)
+		{
+			return txt.value.length == 0;
+		}
+
+		function checksize(txt)
+		{
+			return txt.value.length < 10;
+		}
+
+		function cmp(txt, reg)
+		{
+			return txt.value === reg.value;
+		}
+
+		function validform(f)
+		{
+			if(checknull(f.username))
+			{
+				alert(f.username.name + " must be no null");
+				f.username.focus();
+				return;
+			}
+			if(checksize(f.username))
+			{
+				alert("length of " + f.username.name + " must be >= 10");
+				f.username.focus();
+				return;				
+			}
+			if(checknull(f.email))
+			{
+				alert(f.email.name + " must be no null");
+				f.email.focus();
+				return;
+			}
+			if(checknull(f.password))
+			{
+				alert(f.password.name + " must be no null");
+				f.password.focus();
+				return;
+			}
+			if(checknull(f.confirmpassword))
+			{
+				alert(f.confirmpassword.name + " must be no null");
+				f.confirmpassword.focus();
+				return;
+			}	
+			if(!cmp(f.password, f.confirmpassword))
+			{
+				alert("Confirm password is not maching password");
+				f.password.focus();				
+				f.confirmpassword.focus();
+				return;
+			}
+			alert("all fields are valid!!!");
+		}
+	</script>	
+</head>
+<body>
+	<table>
+		<form name ="frmAccount" action="abc.jsp">
+			<tr>
+				<th colspan="2">Form</th>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username"/></td>
+			</tr>
+
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email"/></td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password"/></td>
+			</tr>
+
+			<tr>
+				<td>Confirm password:</td>
+				<td><input type="password" name="confirmpassword"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="Submit" onclick="validform(document.forms.frmAccount);">
+					<input type="reset"	value="Reset">
+				</td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

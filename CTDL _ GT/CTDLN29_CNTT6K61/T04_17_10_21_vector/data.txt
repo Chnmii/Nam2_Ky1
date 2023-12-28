@@ -1,0 +1,6 @@
+ 1     ||   Le Roi               || 34    || B
+ 2     ||   Le Tien              || 36    || C
+ 3     ||   Nguyen An Ninh       || 45    || C
+ 4     ||   Nguyen Van Hung Dung || 17    || A
+ 5     ||   Tien Gia Nghia       || 12    || A
+ 6     ||   Tran Hung Cuong      || 13    || B

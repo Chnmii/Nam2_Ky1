@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    font-size: 15px;
+    height: 100vh;
+}
+
+h1{
+    height: 8%;
+}
+
+nav{
+    margin: 30px;
+    height: 10%;
+    background-color: blue;
+}
+
+li a{
+    padding: 10px;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.d1{
+    height: 40%;
+    border: 1px solid black;
+}
+
+.d2{
+    height: 35%;
+}
+
+.p1{
+    height: 5%;
+    font-size: 20px;
+}
+
+.well{
+    text-align: center;
+}
+
+form{
+    border-top:  1px solid black;
+    height: 45px;
+    text-align: left;
+}
+footer{
+    height: 10%;
+}
+
+th{
+    background-color : #CCCCCC;
+}

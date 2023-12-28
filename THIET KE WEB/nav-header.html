@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content=" width=device-width initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HEADER-NAVBAR-FIXED</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet"><!--Thư viện biểu tượng icon -->   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" /><!--Thư viện biểu tượng icon -->
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script><!--Thư viện biểu tượng icon -->
+    <link href="nav-header.css" rel="stylesheet">
+	<title></title>
+	<link rel="stylesheet" href="nav-header.css">
+</head>
+<body>
+	<!--Navbar-header --> 
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-branch" href="#">
+			<i class="fas fa-book-open fa-2x"></i>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav  ml-auto">
+				<li class="nav-item">
+					<a class="btn active btn-success" href="#">
+					 <span><ion-icon name="home"></ion-icon></span> Trang chủ   
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+                      <a class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span><ion-icon name="book"></ion-icon></span> Sách  
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Giáo trình</a>
+                        <a class="dropdown-item" href="#">Tác phẩm nước ngoài</a>
+                        <a class="dropdown-item" href="#">Tài liệu</a>
+                      </div>
+                  	</div>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+                      <a class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span><ion-icon name="school"></ion-icon></span> Người đọc
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Thông tin cá nhân</a>
+                        <a class="dropdown-item" href="#">Hoạt động chung</a>
+                      </div>
+                  	</div>
+				</li>
+				<li class="nav-item">
+					<a class="btn active btn-success" href="#">
+					 <span><ion-icon name="contacts"></ion-icon></span> Nhân viên
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+                      <a class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span><ion-icon name="filing"></ion-icon></span> Xem thêm 
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Hoạt động</a>
+                        <a class="dropdown-item" href="#">Thông kê</a>
+                      </div>
+                  	</div>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+                      <a class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span><ion-icon name="person"></ion-icon></span> Tài khoản 
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Đăng nhập</a>
+                        <a class="dropdown-item" href="#">Đăng ký</a>
+                      </div>
+                  	</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+	
+</body>
+</html>

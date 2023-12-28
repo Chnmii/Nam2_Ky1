@@ -1,0 +1,30 @@
+
+.navbar {
+	background-color: #4EA6F8 !important;
+	font-family: 'Oswald', sans-serif;
+}
+a.navbar-branch i{
+	color: white;
+}
+a.navbar-branch i:hover{
+	
+	color: black;
+}
+.navbar li a,.dropdown-menu {
+    color: white !important;
+    background-color: #4EA6F8 !important;
+}
+.navbar li a:hover{
+    color: black !important;
+    background-color: #4EA6F8 !important;
+}
+.show > .btn-success.dropdown-toggle{
+	color: black !important;
+    background-color: #4EA6F8 !important;
+}
+.btn-success{
+	background-color: transparent !important;
+	color:rgba(4, 168, 108,0.8) !important;
+	border-color: transparent !important;
+	padding: 5px;
+}

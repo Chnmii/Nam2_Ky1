@@ -1,0 +1,5 @@
+flower  hoa
+cat meo
+dog cho
+backpack    balo
+shirt   ao

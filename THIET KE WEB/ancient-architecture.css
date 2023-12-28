@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: roboto, sans-serif;
+    background: #e2d7aa;
+    color: #000000;
+    size: 16px;
+    width: 1180px;
+    text-align: center;
+}
+
+img{
+    width: 1100px;
+    height: 450px;
+}
+
+.img-container{
+    width: 1200px;
+    height: 450px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+h1{
+    size: 60px;
+    text-align: center;
+    margin-top: 65px;
+    Font Family: ‘Indie Flower’, cursive;
+}
+
+nav{
+    margin: 30px;
+}
+
+nav ul li a{
+    padding: 10px;
+    size: 28px;
+    color: #000000;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a .home{
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+article img{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.comments{
+    color: #ffffff;
+    background: rgba(100, 1, 1, 0.5);
+    /*position: relative;*/
+    right: 5px;
+    margin-top: 7px;
+    padding: 10px;
+}
+
+.readmore{
+    color: #ffffff;
+    background: rgba(100, 1, 1, 0.5);
+    /*position: relative;*/
+    right: 5px;
+    margin-top: 7px;
+    padding: 10px;
+}
+
+main article{
+    width: 390px;
+    border-top: 7px;
+    border-right: 5px;
+}
+
+main{
+    display:  inline-flex;
+}
+
+p{
+    font-family: EucrosiaUPC, sans-serif;
+    size: 40px;
+    width: 350px;
+    height: 400px;
+    text-align: justify;
+    margin-left: 16px;
+}

@@ -1,0 +1,19 @@
+6
+Tran Van A
+37
+a
+Nguyen Thi B
+43
+b
+Do Thi A
+39
+A
+Hoang Minh E
+45
+a
+Dang Anh B
+56
+B
+Ho Thanh C
+52
+b

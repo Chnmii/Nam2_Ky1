@@ -1,0 +1,91 @@
+body{
+  Font Family: Lato, sans-serif;
+  Background: url(xoai/plan-page.jpg);
+  Text size: 16px
+  Width: 1180px;
+}
+
+section{
+  text-align: center;
+}
+
+article{
+  width: 300px;
+  height: 500px;
+  Background: #262626;
+  Display: inline-block;
+  Margin: 80px 20px 0 20px;
+  Border: 5px solid #424242;
+  Color: #a1a1a1;
+}
+
+h1{
+  font-family: Arial;
+  Text size: 1.5em;
+ Color: #FFF;
+
+}
+
+.price{
+  font-size: 40px;
+  Text size: 3em;
+ Text weight: bold;
+ Color: #27dcc4;
+}
+
+ul{
+  padding: 0;
+}
+
+button{
+  size: 3em;
+  weight: bold;
+  color: white;
+  background-color: #27dcc4;
+  width: 100px;
+  height: 50px;
+}
+
+button:hover{
+  Background: #ACACAC;
+}
+
+li{
+   List-style-type: none;
+   Padding: 5px 0;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
